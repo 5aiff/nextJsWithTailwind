@@ -2,22 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    // <main className="flex flex-col items-center justify-between min-h-screen">
-
-    // </main>
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
       <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">
           We invest in the world’s potential
         </h1>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">
           Here at Flowbite we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
         <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#"
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
           >
             Learn more
             <svg
@@ -35,7 +32,7 @@ export default function Home() {
           </a>
           <a
             href="#"
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300  hover:bg-purple-700 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300  hover:bg-purple-700 focus:ring-4 focus:ring-gray-100"
           >
             <svg
               class="mr-2 -ml-1 w-5 h-5"
@@ -51,10 +48,7 @@ export default function Home() {
         <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
           <span class="font-semibold text-gray-400 uppercase">FEATURED IN</span>
           <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
-            <a
-              href="#"
-              class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
-            >
+            <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800">
               <svg
                 class="h-8"
                 viewBox="0 0 132 29"
@@ -99,10 +93,7 @@ export default function Home() {
                 />
               </svg>
             </a>
-            <a
-              href="#"
-              class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
-            >
+            <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800">
               <svg
                 class="h-11"
                 viewBox="0 0 208 42"
@@ -123,10 +114,7 @@ export default function Home() {
                 />
               </svg>
             </a>
-            <a
-              href="#"
-              class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
-            >
+            <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800">
               <svg
                 class="h-11"
                 viewBox="0 0 120 41"
